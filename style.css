@@ -34,13 +34,28 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
 nav {
    font-family: 'Rubik', sans-serif ;
-   padding: 10px;
+   font-weight: 300;
+   padding: 30px;
    margin-top: 50px;
    font-size: 20px;
    color: #fff;
 }
+
+nav a {
+  font-family: 'Rubik', sans-serif ;
+  color: pink;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
 
 h1 {
 font-family: 'Rubik', sans-serif;
