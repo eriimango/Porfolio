@@ -15,11 +15,28 @@
     <img class="logo-img" src="images/logo.png" width="70" height="80" ALT="align box" ALIGN=LEFT style="padding-left: 10px;">
 <!-- Navi -->
 <nav>
-<a href="series.html"><b>Series</b></a></li>
-<a href="projects.html">Projects</a></li>
-<a href="contact.html"><b>Say Hi</b></a></li>
+  <div class="navbar" id="myNavbar">
+<a href="series.html">1.<b>Series</b></a></li>
+<a href="projects.html"><b>2.</b>Projects</a></li>
+<a href="contact.html">3.<b>Say Hi</b></a></li>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </nav>
 </div>
+
+<!--JavaScript for response menu -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
 
 <h1>hi, i'm ericka<br><br><img src="images/icon_me.png" alt="icon" style="width:275px;height:200px;"></h1>
 <h4>I'm A Creative Developer,<br>
