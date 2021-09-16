@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik:wght@500;900&display=swap');
+
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -32,15 +34,21 @@ body {
 		background-position: 0% 50%;
 	}
 }
+nav {
+   font-family: 'Rubik', sans-serif ;
+   font-weight: lighter;
+   margin-top: 60px;
+   font-size: 20px;
+}
 
 h1 {
-font-family: 'Rubix Mono One', sans-serif;	
+font-family: 'Rubik', sans-serif;
 font-size:65px;
 color:white;
 text-align:center;
 }
 h2 {
-font-family: 'poppins';	
+font-family: 'poppins';
 font-size:65px;
 color:white;
 }
@@ -59,7 +67,7 @@ h4 {
 				 6px  0px 0 #212121,
 				-6px  0px 0 #212121,
                  6px  0px 0 #212121,
-				-6px -6px 0 #212121, 
+				-6px -6px 0 #212121,
                  6px -6px 0 #212121,
 				-6px  6px 0 #212121,
                  6px  6px 0 #212121,
@@ -73,7 +81,7 @@ h4 {
 				0 18px 18px rgba(0,0,0,.25),
 				0 24px 24px rgba(0,0,0,.2),
 				0 36px 36px rgba(0,0,0,.15),
-				
+
 }
 
 h5 {
@@ -96,9 +104,9 @@ color: white;
 	border-radius: 20px;
 	padding:40px;
 	box-sizing: border-box;
-	
-	
-	
+
+
+
 }
 .inputs {
 	text-align:left;
@@ -147,5 +155,3 @@ button {
 butoon:hover {
 	box-shadow: none;
 }
-
-
