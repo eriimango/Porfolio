@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -47,8 +49,8 @@ nav {
 nav a {
   font-family: 'Rubik', sans-serif ;
   color: pink;
-  text-align: center;
   padding: 18px 22px;
+  overflow: hidden;
   text-decoration: none;
 }
 
@@ -56,22 +58,67 @@ nav a:hover {
   background-color: white;
 }
 
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff ;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: purple !important;
+}
 
 h1 {
-font-family: 'Rubik', sans-serif;
+font-family: 'Paytone One', sans-serif;
 font-size:65px;
 color:white;
 text-align:center;
 }
-h2 {
-font-family: 'poppins';
-font-size:65px;
+
+h6 {
+font-family: 'Paytone One', sans-serif;
+font-size:25px;
 color:white;
 }
 
 h4 {
-	font-size:52px;
-	font-family: 'Luckiest Guy';
+	font-size:24px;
+	font-family: 'Pacifico', cursive;
 	color: #ffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing:grayscale;
@@ -101,29 +148,27 @@ h4 {
 }
 
 h5 {
-	font-family:'poppins';
-	font-size: 48px;
-	color: gray;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 14px;
+	color: black;
 }
 
 p {
-font-family: 'playfair display';
+font-family: 'Montserrat', sans-serif;
 font-size:14px;
 text-align:center;
 color: white;
 }
 
-.container {
-	position: relative;
-	width: 350px;
-	height: 500px;
-	border-radius: 20px;
-	padding:40px;
-	box-sizing: border-box;
-
-
+.container text-center {
+	width: 450px;
+	height: 100px;
+	border-radius: 60px;
+	padding: 300px 220px;
 
 }
+
+
 .inputs {
 	text-align:left;
 	margin-top:30px;
@@ -131,30 +176,30 @@ color: white;
 
 label, input, button {
 	display: block;
-	width: 55%;
-	padding:0;
-	color: white;
+	width: 65%;
+	padding:40px 60px;
+	color: black;
 	outline: none;
 	box-sizing: border-box;
-	font-family: 'AvenirNext-Bold', sans-serif; ;
+	font-family: 'Paytone One', sans-serif;
 }
 
 input::placeholder {
-	color:gray;
+	color:purple;
 }
 
 label {
-	margin-bottom: 4px;
+	margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 input {
-	background: #000000;
+	background: white;
 	padding: 10px;
 	padding-left: 20px;
 	height: 40px;
 	font-size:14px;
 	border-radius: 50px;
-	box-shadow: inset 6px 6px 6px #676767, inset -6px -6px 6px gray;
 }
 
 button {
